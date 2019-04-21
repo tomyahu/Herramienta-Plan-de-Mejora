@@ -35,4 +35,21 @@ current_day = 4
 
 add_points_to_day(current_week, current_day, 3) # Hacer mini API para zips y csv
 add_points_to_day(current_week, current_day, 3) # Hacer vista administrador curso ingenieria de software 2
-add_points_to_day(current_week, current_day, 3) # Programar script para graficar puntos 
+add_points_to_day(current_week, current_day, 3) # Programar script para graficar puntos
+
+#Viernes
+current_day = 5
+
+add_points_to_day(current_week, current_day, 1) # Mover trabajo de trabajo en equipo a github
+add_points_to_day(current_week, current_day, 1) # Subir mockup ingenieria de software 2
+add_points_to_day(current_week, current_day, 1) # Se pidió la sala comdibujo para la proxima semana
+add_points_to_day(current_week, current_day, 1) # Molestar gente ingenieria de software 2 para empezar a programar stuff
+
+#Sábado
+current_day = 6
+
+add_points_to_day(current_week, current_day, 5) # Se investigó sobre protocolos de encriptación homomórfica
+add_points_to_day(current_week, current_day, 3) # Se puso al día con primera mitad de clase criptografía.
+add_points_to_day(current_week, current_day, 1) # Imprimir resto de lectura mallas geometricas
+add_points_to_day(current_week, current_day, 3) # Se leyó la parte de lectura mallas geometricas asociada al algoritmo 3, triangulacion dependiente de los datos y algortimo 4
+add_points_to_day(current_week, current_day, 1) # Se respondió la P2 b del control de lectura de mallas geometricas
