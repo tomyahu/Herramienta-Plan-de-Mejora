@@ -20,6 +20,16 @@ def add_points_to_day(week, day, pts):
 	puntos_por_semana[array_week][array_day] += pts
 
 # -------------------------------------------------------------------------------------------------------------------------------
+# Semana 7
+current_week = 7
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 5) # Resumir flujo de caja evalua
+add_points_to_day(current_week, current_day, 3) # P1 tarea criptografía hecha
+
+# -------------------------------------------------------------------------------------------------------------------------------
 # Semana 6
 current_week = 6
 
