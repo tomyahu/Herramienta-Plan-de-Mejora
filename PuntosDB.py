@@ -53,3 +53,16 @@ add_points_to_day(current_week, current_day, 3) # Se puso al día con primera mit
 add_points_to_day(current_week, current_day, 1) # Imprimir resto de lectura mallas geometricas
 add_points_to_day(current_week, current_day, 3) # Se leyó la parte de lectura mallas geometricas asociada al algoritmo 3, triangulacion dependiente de los datos y algortimo 4
 add_points_to_day(current_week, current_day, 1) # Se respondió la P2 b del control de lectura de mallas geometricas
+
+#Domingo
+current_day = 7
+
+add_points_to_day(current_week, current_day, 5) # Se resolvio el control de lectura mallas geometricas
+add_points_to_day(current_week, current_day, 3) # Se puso al día con criptografía
+add_points_to_day(current_week, current_day, 1) # Se movio el proyecto de ingeniería de software a github
+add_points_to_day(current_week, current_day, 3) # Se agregaron imágenes a las respuestas del control de lectura
+add_points_to_day(current_week, current_day, 1) # Se firmo un contrato de confidencialidad criptografía
+
+
+
+
