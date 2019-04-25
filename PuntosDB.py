@@ -2,15 +2,38 @@ import numpy as np
 
 puntos_asignados_por_semana = np.zeros((15,7))
 
+def carga_baja(semana):
+	puntos_asignados_por_semana[semana][0] = 6
+	puntos_asignados_por_semana[semana][1] = 7
+	puntos_asignados_por_semana[semana][2] = 8
+	puntos_asignados_por_semana[semana][3] = 3
+	puntos_asignados_por_semana[semana][4] = 10
+	puntos_asignados_por_semana[semana][5] = 8
+	puntos_asignados_por_semana[semana][6] = 8
+
+def carga_media(semana):
+	puntos_asignados_por_semana[semana][0] = 8
+	puntos_asignados_por_semana[semana][1] = 8
+	puntos_asignados_por_semana[semana][2] = 10
+	puntos_asignados_por_semana[semana][3] = 5
+	puntos_asignados_por_semana[semana][4] = 16
+	puntos_asignados_por_semana[semana][5] = 10
+	puntos_asignados_por_semana[semana][6] = 10
+
+def carga_alta(semana):
+	puntos_asignados_por_semana[semana][0] = 10
+	puntos_asignados_por_semana[semana][1] = 10
+	puntos_asignados_por_semana[semana][2] = 12
+	puntos_asignados_por_semana[semana][3] = 6
+	puntos_asignados_por_semana[semana][4] = 20
+	puntos_asignados_por_semana[semana][5] = 15
+	puntos_asignados_por_semana[semana][6] = 15
+
 # Carga Media
 for i in range(5,14):
-	puntos_asignados_por_semana[i][0] = 8
-	puntos_asignados_por_semana[i][1] = 8
-	puntos_asignados_por_semana[i][2] = 10
-	puntos_asignados_por_semana[i][3] = 5
-	puntos_asignados_por_semana[i][4] = 16
-	puntos_asignados_por_semana[i][5] = 10
-	puntos_asignados_por_semana[i][6] = 10
+	carga_media(i)
+
+puntos_asignados_por_semana[6][3] = 15
 
 puntos_por_semana = np.zeros((15,7))
 
@@ -28,6 +51,28 @@ current_day = 1
 
 add_points_to_day(current_week, current_day, 5) # Resumir flujo de caja evalua
 add_points_to_day(current_week, current_day, 3) # P1 tarea criptografía hecha
+
+#Martes
+current_day = 2
+
+add_points_to_day(current_week, current_day, 5) # Resolver P2 tarea criptografía
+add_points_to_day(current_week, current_day, 5) # Estudiar lectura mallas geometricas
+
+#Miercoles
+current_day = 3
+
+add_points_to_day(current_week, current_day, 1) # Redactar preguntas diggo
+add_points_to_day(current_week, current_day, 5) # Investigar sobre proyecto criptografía
+add_points_to_day(current_week, current_day, 5) # Hacer P3 a
+
+#Jueves
+current_day = 4
+
+add_points_to_day(current_week, current_day, 3) # Hacer software testeo ingeniería de software 2
+add_points_to_day(current_week, current_day, 1) # Planearse próximos días
+add_points_to_day(current_week, current_day, 5) # P3 criptografía hecha
+add_points_to_day(current_week, current_day, 5) # Encontrar y leer lectura P3 mallas geométricas
+
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 6
