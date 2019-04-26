@@ -71,7 +71,7 @@ current_day = 4
 add_points_to_day(current_week, current_day, 3) # Hacer software testeo ingeniería de software 2
 add_points_to_day(current_week, current_day, 1) # Planearse próximos días
 add_points_to_day(current_week, current_day, 5) # P3 criptografía hecha
-add_points_to_day(current_week, current_day, 5) # Encontrar y leer lectura P3 mallas geométricas
+add_points_to_day(current_week, current_day, 5) # Encontrar y leer lectura P3 mallas geométricas.
 
 
 # -------------------------------------------------------------------------------------------------------------------------------
