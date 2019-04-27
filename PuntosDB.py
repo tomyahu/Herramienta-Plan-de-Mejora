@@ -73,6 +73,13 @@ add_points_to_day(current_week, current_day, 1) # Planearse próximos días
 add_points_to_day(current_week, current_day, 5) # P3 criptografía hecha
 add_points_to_day(current_week, current_day, 5) # Encontrar y leer lectura P3 mallas geométricas.
 
+#Viernes
+current_day = 5
+
+add_points_to_day(current_week, current_day, 5) # Creación programa basico para mostrar la aproxiacion de imagenes
+add_points_to_day(current_week, current_day, 5) # Se comenzo un programa para aproximar la grilla en cada momento.
+add_points_to_day(current_week, current_day, 5) # Se terminó la P3 del control de mallas geometricas
+
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 6
