@@ -80,6 +80,16 @@ add_points_to_day(current_week, current_day, 5) # Creación programa basico para 
 add_points_to_day(current_week, current_day, 5) # Se comenzo un programa para aproximar la grilla en cada momento.
 add_points_to_day(current_week, current_day, 5) # Se terminó la P3 del control de mallas geometricas
 
+#Sabado
+current_day = 6
+
+add_points_to_day(current_week, current_day, 15) # Entrega 1 Evalua
+
+#Domingo
+current_day = 7
+
+add_points_to_day(current_week, current_day, 15) # Tarea 1 Criptografía
+
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 6
