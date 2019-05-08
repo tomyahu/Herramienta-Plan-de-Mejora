@@ -21,19 +21,24 @@ def carga_media(semana):
 	puntos_asignados_por_semana[semana][6] = 10
 
 def carga_alta(semana):
-	puntos_asignados_por_semana[semana][0] = 10
-	puntos_asignados_por_semana[semana][1] = 10
-	puntos_asignados_por_semana[semana][2] = 12
-	puntos_asignados_por_semana[semana][3] = 6
+	puntos_asignados_por_semana[semana][0] = 11
+	puntos_asignados_por_semana[semana][1] = 11
+	puntos_asignados_por_semana[semana][2] = 13
+	puntos_asignados_por_semana[semana][3] = 8
 	puntos_asignados_por_semana[semana][4] = 20
 	puntos_asignados_por_semana[semana][5] = 15
 	puntos_asignados_por_semana[semana][6] = 15
 
 # Carga Media
-for i in range(5,14):
+for i in range(5,8):
 	carga_media(i)
+	
+for i in range(8,15):
+	carga_alta(i)
 
-puntos_asignados_por_semana[6][3] = 15
+# Dias Libres
+set_asigned_points_to_day(7,4,15)
+set_asigned_points_to_day(8,3,15)
 
 puntos_por_semana = np.zeros((15,7))
 
@@ -41,6 +46,88 @@ def add_points_to_day(week, day, pts):
 	array_week = week - 1
 	array_day = day - 1
 	puntos_por_semana[array_week][array_day] += pts
+
+def set_asigned_points_to_day(week, day, pts):
+	array_week = week - 1
+	array_day = day - 1
+	puntos_asignados_por_semana[array_week][array_day] = pts
+
+
+# -------------------------------------------------------------------------------------------------------------------------------
+# Semana 9
+current_week = 9
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 3) # Agregar vistas ingeniería de software a presentación
+add_points_to_day(current_week, current_day, 1) # Actualizar puntos
+add_points_to_day(current_week, current_day, 3) # Ponerse al día con clase 12 de criptografía
+add_points_to_day(current_week, current_day, 3) # Ponerse al día con primera mitad clase 13 de criptografía
+
+#Martes
+current_day = 2
+
+add_points_to_day(current_week, current_day, 5) # Resumir primeras 2 diapos ingeniería de software
+add_points_to_day(current_week, current_day, 3) # Resumir primeras 2 diapos ingeniería de software
+add_points_to_day(current_week, current_day, 1) # Avanzar en sistema ingeniería de software
+add_points_to_day(current_week, current_day, 5) # Hacer 3 auxiliares de criptografía
+
+#Miercoles
+current_day = 3
+set_asigned_points_to_day(current_week, current_day, 6) #Reducción tiempo por reunión con Jeremy
+
+
+# -------------------------------------------------------------------------------------------------------------------------------
+# Semana 8
+current_week = 8
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 3) # Hacer vista LP Usuario no registrado + login Software 2
+add_points_to_day(current_week, current_day, 5) # Hacer vista Curso para todos los usuarios + login Software 2
+
+#Martes
+current_day = 2
+
+add_points_to_day(current_week, current_day, 5) # Rehacer programa ingeniería de software
+add_points_to_day(current_week, current_day, 10) # Rehacer programa mallas geométricas
+
+#Miercoles
+current_day = 3
+
+add_points_to_day(current_week, current_day, 5) # Rehacer programa ingeniería de software
+add_points_to_day(current_week, current_day, 5) # Rehacer programa mallas geométricas
+add_points_to_day(current_week, current_day, 3) # Probar usuario nobody ingeniería de software
+
+#Jueves
+current_day = 4
+
+add_points_to_day(current_week, current_day, 5) # Implementar scheduler ingenieria de software
+add_points_to_day(current_week, current_day, 5) # Implementar ingenieria de software
+
+#Viernes
+current_day = 5
+
+add_points_to_day(current_week, current_day, 1) # Pasar lo que llevo de ingeniería de software a bit bucket
+add_points_to_day(current_week, current_day, 5) # Escribir arquitectura lógica documento diseño 
+add_points_to_day(current_week, current_day, 3) # Escribir arquitectura física y modelo de datos ingenieria de software 
+
+#Sabado
+current_day = 6
+
+add_points_to_day(current_week, current_day, 10) # Responder control de lectura mallas geométricas
+add_points_to_day(current_week, current_day, 1) # Enviar encuesta trabajo en equipo
+
+#Domingo
+current_day = 7
+
+add_points_to_day(current_week, current_day, 1) # Aprender a hacer DFD's
+add_points_to_day(current_week, current_day, 5) # Hacer DFD's ingeniería de software
+add_points_to_day(current_week, current_day, 1) # Reemplazar imagenes modelo de datos presentación
+add_points_to_day(current_week, current_day, 3) # Escribir sección de módulos detallados documento de diseño ingeniería de software
+add_points_to_day(current_week, current_day, 1) # Actualiza varias interfaces ingenieria de software
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 7
