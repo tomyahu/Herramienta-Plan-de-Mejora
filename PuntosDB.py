@@ -75,8 +75,12 @@ add_points_to_day(current_week, current_day, 5) # Hacer 3 auxiliares de criptogr
 
 #Miercoles
 current_day = 3
-set_asigned_points_to_day(current_week, current_day, 6) #Reducción tiempo por reunión con Jeremy
+set_asigned_points_to_day(current_week, current_day, 15) #Reducción tiempo por reunión con Jeremy pero Paro
 
+add_points_to_day(current_week, current_day, 5) # Resumir clase 6 ingeniería de software
+add_points_to_day(current_week, current_day, 3) # Resumir clase 7 ingenieria de software
+add_points_to_day(current_week, current_day, 3) # Modificar documento de requisitos
+add_points_to_day(current_week, current_day, 8) # Estudiar de auxiliares criptografía
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 8
