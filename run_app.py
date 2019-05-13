@@ -7,7 +7,7 @@ import os
 def actualizar_graficos():
 	print("Actualizando Gráficos...")
 	try:
-		os.mkdir("/graficos")
+		os.mkdir("graficos")
 	except:
 		pass
 	for i in range(len(puntos_por_semana)):
@@ -15,6 +15,7 @@ def actualizar_graficos():
 	
 	print("Gráficos Actualizados")
 
+#actualizar_graficos()
 
 
 canvas_width = 680
@@ -60,7 +61,5 @@ atras.grid(row=2,column=0)
 
 adelante = tk.Button(master, text=">>", command=adelantar_semana)
 adelante.grid(row=2,column=1)
-
-actualizar_graficos()
 
 master.mainloop()

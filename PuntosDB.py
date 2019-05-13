@@ -36,6 +36,11 @@ for i in range(5,8):
 for i in range(8,15):
 	carga_alta(i)
 
+def set_asigned_points_to_day(week, day, pts):
+	array_week = week - 1
+	array_day = day - 1
+	puntos_asignados_por_semana[array_week][array_day] = pts
+
 # Dias Libres
 set_asigned_points_to_day(7,4,15)
 set_asigned_points_to_day(8,3,15)
@@ -46,11 +51,6 @@ def add_points_to_day(week, day, pts):
 	array_week = week - 1
 	array_day = day - 1
 	puntos_por_semana[array_week][array_day] += pts
-
-def set_asigned_points_to_day(week, day, pts):
-	array_week = week - 1
-	array_day = day - 1
-	puntos_asignados_por_semana[array_week][array_day] = pts
 
 
 # -------------------------------------------------------------------------------------------------------------------------------
@@ -81,6 +81,33 @@ add_points_to_day(current_week, current_day, 5) # Resumir clase 6 ingeniería de 
 add_points_to_day(current_week, current_day, 3) # Resumir clase 7 ingenieria de software
 add_points_to_day(current_week, current_day, 3) # Modificar documento de requisitos
 add_points_to_day(current_week, current_day, 8) # Estudiar de auxiliares criptografía
+add_points_to_day(current_week, current_day, 3) # Resumir clase 13 criptografía
+add_points_to_day(current_week, current_day, 1) # Repasar resumen ingenieria de software
+
+#Jueves
+current_day = 4
+add_points_to_day(current_week, current_day, 1) # Actualizar puntos ayer
+add_points_to_day(current_week, current_day, 5) # Hacer mitad resumen criptografía
+add_points_to_day(current_week, current_day, 3) # Hacer 2 planas mas resumen criptografía
+
+#Viernes
+current_day = 5
+add_points_to_day(current_week, current_day, 5) # Terminar resumen criptografía
+add_points_to_day(current_week, current_day, 3) # Agregar Fibonacci Heaps a mallas geometricas
+add_points_to_day(current_week, current_day, 5) # Implementar el módulo comunicación del sistema ingeniería de software
+add_points_to_day(current_week, current_day, 3) # Cambiar archivos sistema ingeniería de software a json
+
+#Sabado
+current_day = 6
+add_points_to_day(current_week, current_day, 3) # Hacer resumen evaluación de proyectos
+add_points_to_day(current_week, current_day, 3) # Probar módulo de comunicación
+
+#Domingo
+current_day = 7
+add_points_to_day(current_week, current_day, 5) # Hacer entrega 2 plan de mejora trabajo en equipo
+add_points_to_day(current_week, current_day, 1) # Pedir sala comdibujo
+add_points_to_day(current_week, current_day, 3) # Crear clase para guardar tests en json ingenieria de software
+add_points_to_day(current_week, current_day, 3) # Recolectar datos mallas geométricas
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 8
