@@ -32,8 +32,14 @@ def carga_alta(semana):
 # Carga Media
 for i in range(5,8):
 	carga_media(i)
-	
-for i in range(8,15):
+
+for i in range(8,12):
+	carga_alta(i)
+
+for i in range(12,13):
+	carga_media(i)
+
+for i in range(13,16):
 	carga_alta(i)
 
 def set_asigned_points_to_day(week, day, pts):
@@ -53,6 +59,101 @@ def add_points_to_day(week, day, pts):
 	puntos_por_semana[array_week][array_day] += pts
 
 
+# -------------------------------------------------------------------------------------------------------------------------------
+# Semana 11
+current_week = 11
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 5) # Hacer trabajo grupal evalua
+add_points_to_day(current_week, current_day, 3) # Empezar programa tarea 2 mallas geométricas
+
+#Martes
+current_day = 2
+
+add_points_to_day(current_week, current_day, 3) # Hacer 2 programas en base al programa del dia anterior mallas geométricas
+add_points_to_day(current_week, current_day, 3) # Hacer quick fixes para seleccion cursos form ingenieria de software
+add_points_to_day(current_week, current_day, 3) # Iniciar presentación mallas geométricas
+add_points_to_day(current_week, current_day, 5) # Recolectar datos de mallas geométricas
+
+#Miercoles
+current_day = 3
+
+add_points_to_day(current_week, current_day, 3) # Implementar busqueda de tareas ingeniería de software
+add_points_to_day(current_week, current_day, 5) # Arreglar bugs ingeniería de software
+
+#Jueves
+current_day = 4
+
+add_points_to_day(current_week, current_day, 3) # Empezar tarea 3 mallas geométricas
+add_points_to_day(current_week, current_day, 3) # Ayudar a diseñar demo ingenieria de software
+
+#Viernes:
+current_day = 5
+
+add_points_to_day(current_week, current_day, 1) # Preparar base de datos para demo
+add_points_to_day(current_week, current_day, 3) # Implementar punto en triangulo mallas geometricas
+add_points_to_day(current_week, current_day, 5) # Implementar punto en linea mallas geometricas
+add_points_to_day(current_week, current_day, 3) # Demostrar existencia antitriángulos mallas geométricas y rantear sobre eso mallas geometricas
+add_points_to_day(current_week, current_day, 3) # Leer Tarea 2 de criptografía y hacer P1
+add_points_to_day(current_week, current_day, 5) # Hacer segundo protocolo introducción a la criptografía
+
+#Sabado:
+current_day = 6
+
+add_points_to_day(current_week, current_day, 5) # Hacer que el proceso servidor sea mas robusto ingeniería de software 2
+
+#Domingo:
+current_day = 7
+
+add_points_to_day(current_week, current_day, 5) # Hacer que el proceso servdor sea mas robusto ingeniería de software 2
+add_points_to_day(current_week, current_day, 3) # Hacer overleaf con tarea 2 de criptografía
+add_points_to_day(current_week, current_day, 3) # Resolver P3 tarea 2 criptografía
+add_points_to_day(current_week, current_day, 1) # Pasar P3 criptografía a overleaf
+add_points_to_day(current_week, current_day, 1) # Planificar resto de la semana
+add_points_to_day(current_week, current_day, 3) # Resumir una clase ingeniería de software
+# -------------------------------------------------------------------------------------------------------------------------------
+# Semana 10
+current_week = 10
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 5) # Preparar presentación mallas geometricas
+add_points_to_day(current_week, current_day, 3) # Implementar librería json ingenieria de software
+
+#Martes
+current_day = 2
+
+add_points_to_day(current_week, current_day, 5) # Implementar links busqueda cursos y problemas
+add_points_to_day(current_week, current_day, 5) # Implementar base formulario curso
+add_points_to_day(current_week, current_day, 3) # Resumir primeras 2 diapos ingeniería de software
+
+#Miercoles
+current_day = 3
+set_asigned_points_to_day(current_week, current_day, 10) #Reducción tiempo por reunión con Jeremy
+
+add_points_to_day(current_week, current_day, 3) # Implementar vistas tarea ingenieria de software
+add_points_to_day(current_week, current_day, 5) # Desarrollar protocolo comprador vendedor criptografía
+
+#Jueves
+current_day = 4
+set_asigned_points_to_day(current_week, current_day, 11) # Paro
+
+add_points_to_day(current_week, current_day, 1) # Resolver problema plan de mejora 2
+add_points_to_day(current_week, current_day, 3) # Ponerse al día con primera mitad de clase de criptografía
+add_points_to_day(current_week, current_day, 3) # Ponerse al día con segunda mitad de clase de criptografía
+add_points_to_day(current_week, current_day, 3) # Repasar resumen criptografía
+add_points_to_day(current_week, current_day, 3) # Hacer ejercicios de evalua
+
+#Viernes
+current_day = 5
+set_asigned_points_to_day(current_week, current_day, 9) # Descanso
+
+add_points_to_day(current_week, current_day, 1) # Pedir sala comdibujo
+add_points_to_day(current_week, current_day, 1) # Enviar mail profe para estudiar evalua
+add_points_to_day(current_week, current_day, 1) # Ordenar tiempo plan de mejora
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 9
 current_week = 9
