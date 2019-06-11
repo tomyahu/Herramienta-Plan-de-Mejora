@@ -58,6 +58,75 @@ def add_points_to_day(week, day, pts):
 	array_day = day - 1
 	puntos_por_semana[array_week][array_day] += pts
 
+# -------------------------------------------------------------------------------------------------------------------------------
+# Semana 13
+current_week = 13
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 5) # Hacer 1.5 auxiliares de evalua
+add_points_to_day(current_week, current_day, 3) # Hacer 1 auxiliar de evalua
+add_points_to_day(current_week, current_day, 3) # Hacer ponderación alturas mallas geométricas
+
+#Martes
+current_day = 2
+set_asigned_points_to_day(current_week, current_day, 5) #Reducción tiempo por control de evalua
+
+add_points_to_day(current_week, current_day, 5) # Organizar tiempo semana
+
+# -------------------------------------------------------------------------------------------------------------------------------
+# Semana 12
+current_week = 12
+
+#Lunes
+current_day = 1
+
+add_points_to_day(current_week, current_day, 3) # Resumir ultima clase ingeniería de software
+add_points_to_day(current_week, current_day, 1) # Repasar clase 2 ingeniería de software
+add_points_to_day(current_week, current_day, 3) # Resolver bugs ingenieria de software
+
+#Martes
+current_day = 2
+
+add_points_to_day(current_week, current_day, 1) # Repasar clase 2 ingeniería de software
+add_points_to_day(current_week, current_day, 3) # Resumir media clase criptografía
+add_points_to_day(current_week, current_day, 5) # Resumir ultima clase criptografía
+
+#Miercoles
+current_day = 3
+
+add_points_to_day(current_week, current_day, 3) # Repasar clases 3, 4 y 5 ingeniería de software
+add_points_to_day(current_week, current_day, 5) # Reunión con jeremy y hernan
+add_points_to_day(current_week, current_day, 3) # Resumir ingeniería de software
+
+#Jueves
+current_day = 4
+
+add_points_to_day(current_week, current_day, 5) # Pasar en limpio definiciones protocolo criptografía
+add_points_to_day(current_week, current_day, 3) # Pulir protocolo criptografía
+
+#Viernes
+current_day = 5
+
+add_points_to_day(current_week, current_day, 5) # Avanzar en informe de avance 2 evalua
+add_points_to_day(current_week, current_day, 5) # Avanzar en informe de avance 2 evalua
+add_points_to_day(current_week, current_day, 5) # Desarrollar protocolo oráculo
+
+#Sábado
+current_day = 6
+
+add_points_to_day(current_week, current_day, 3) # Ponerse al día con una clase de evalua
+add_points_to_day(current_week, current_day, 3) # Ponerse al día con una clase de evalua
+add_points_to_day(current_week, current_day, 5) # Pasar en limpio informe criptografía
+add_points_to_day(current_week, current_day, 3) # Terminar P2 Criptografía
+
+#Domingo
+current_day = 7
+
+add_points_to_day(current_week, current_day, 5) # terminar estudio técnico informe de avance 2 evalua 
+add_points_to_day(current_week, current_day, 3) # pasar en limpio estudio legal informe de avance 2 evalua 
+add_points_to_day(current_week, current_day, 5) # hacer namasté en los sims 4
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 11
