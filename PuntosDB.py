@@ -39,7 +39,7 @@ for i in range(8,12):
 for i in range(12,13):
 	carga_media(i)
 
-for i in range(13,16):
+for i in range(13,15):
 	carga_alta(i)
 
 def set_asigned_points_to_day(week, day, pts):
@@ -74,6 +74,34 @@ current_day = 2
 set_asigned_points_to_day(current_week, current_day, 5) #Reducción tiempo por control de evalua
 
 add_points_to_day(current_week, current_day, 5) # Organizar tiempo semana
+add_points_to_day(current_week, current_day, 3) # Avanzar zips ingenieria de software
+
+#Miercoles
+current_day = 3
+set_asigned_points_to_day(current_week, current_day, 5) #Reducción tiempo por control de evalua
+
+add_points_to_day(current_week, current_day, 3) # Implementar filtrado por cursos ingeniería de software
+add_points_to_day(current_week, current_day, 5) # Implementar guardado de feedback masivo ingenieria de software
+
+#Jueves
+current_day = 4
+
+add_points_to_day(current_week, current_day, 3) # Investigar sobre shaders de causticas de agua
+add_points_to_day(current_week, current_day, 5) # Implementar juego de la vida para simular superficie agua mallas geometricas
+
+#Viernes
+current_day = 5
+
+add_points_to_day(current_week, current_day, 3) # Hacer base presentación Criptografía
+add_points_to_day(current_week, current_day, 5) # Completar presentación Evaluación de proyectos
+add_points_to_day(current_week, current_day, 5) # Completar diversas secciones criptografía
+
+#Sabado
+current_day = 5
+
+add_points_to_day(current_week, current_day, 2) # definiciones protocolos agregadas a presentación Criptografía
+add_points_to_day(current_week, current_day, 5) # 3 bugs resueltos ingenieria de software
+add_points_to_day(current_week, current_day, 5) # ponerse al día en evalua hasta WAC
 
 # -------------------------------------------------------------------------------------------------------------------------------
 # Semana 12
